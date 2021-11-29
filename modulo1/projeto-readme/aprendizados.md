@@ -1,0 +1,2 @@
+# Aprendizados da Semana
+Esta foi minha primeira semana de contato com a programação pela **Labenu**, estou encantada e adorando tudo que estou aprendendo. Tivemos diversas palestras importantes nos ensinando a didática, a rotina, dicas importantes, etc... Aprendemos a mexer no terminal (bash) e alguns comandos, a mexer no git Hub, a criar branches, solucionamos um asassinato hahahaha... e estou ansiosa por tudo que está por vir!
