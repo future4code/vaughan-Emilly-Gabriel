@@ -120,22 +120,27 @@ mensagem(`Eu sou sou muito feliz!`)
 usuário inserir dois números e **chame** essas 4 funções com esses valores
  inputados pelo usuário sendo o argumento. Por fim, mostre no console o resultado das operações:
 */
-    const usuario1 = Number(prompt("Insira um número"))
-    const usuario2 = Number(prompt("Insira outro número"))
- 
-    const somar = (usuario1, usuario2) => usuario1 + usuario2 
-        console.log(`Soma: ${somar}`)
+const usuario1 = Number(prompt("Insira um número"))
+const usuario2 = Number(prompt("Insira outro número"))
 
-    const subtrair = (usuario1, usuario2) => usuario1 - usuario2 
-        console.log(`subtraia: ${subtrair}`)
-    const multiplicar = (usuario1, usuario2) => usuario1 * usuario2 
-        console.log(`Multiplique: ${multiplicar}`)
+const soma = (usuario1, usuario2) => usuario1 + usuario2
+const subtrair = (usuario1, usuario2) => usuario1 - usuario2
+const multiplicar = (usuario1, usuario2) => usuario1 * usuario2
+const dividir = (usuario1, usuario2) => usuario1 / usuario2
 
 
-    const dividir = (usuario1, usuario2) => usuario1 / usuario2 
-        console.log(`divida: ${dividir}`)
-    
+const adicao = soma (usuario1, usuario2)
 
+console.log(`soma: ${adicao}`)
 
+const subtração = subtrair (usuario1, usuario2)
 
+console.log(`subtraia: ${subtração}`)
 
+const multiplicacao = multiplicar (usuario1, usuario2)
+
+console.log(`Multiplique: ${multiplicacao}`)
+
+const divisao = dividir (usuario1, usuario2)
+
+console.log(`divida: ${divisao}`)
