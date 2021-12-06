@@ -11,6 +11,7 @@ canal: "Globo", horario: "14h"
 
 
 
+
 // 2 - 
 
 /* A) nome: "Juca",
@@ -26,8 +27,12 @@ canal: "Globo", horario: "14h"
       raca: "SDR"
 */
 
+
 // B) Ela "copia" as propriedades dos objetos, nesse caso copiou o nome, a idade e a raca,
 //    junto com os valores ali atribuidos.
+
+
+
 
 
 
@@ -35,14 +40,16 @@ canal: "Globo", horario: "14h"
 // 3 - A) Vai retornar: false
 //                      undefined
 
+
 // B) False retorna pelo valor atribuido em "backender"
 // undefined retorna pois não existe "altura" nesse objeto.
 
 
 
+
 // ESCRITA DE CÓDIGO
+
 // 1 - A 
-/*
 const pessoa = {
     nome: "Emilly",
     apelido: ["Emi", "Milly", "Mi"],
@@ -71,7 +78,9 @@ const pessoa1 = {
     profissao: "marceneiro",
 }
 
-// B)
+
+
+// 2 - B
 const pessoa2 = {
     nome: "Gabriella",
     idade: 23,
@@ -84,11 +93,17 @@ function dadosPessoas(pessoa1) {
 
 dadosPessoas(pessoa1);
 dadosPessoas(pessoa2);
-*/
+
+
+
+
+
+
 // 3 - A
 const carrinho = [];
 
-// B
+
+// 3 - B
 const fruta1 = {
     nome: "Laranja",
     disponibilidade: true
@@ -104,7 +119,8 @@ const fruta3 = {
     disponibilidade: true
 }
 
-// C
+
+// 3 - C
 function frutas(fruta) {
     console.log(carrinho.push(fruta))
 }
@@ -114,5 +130,6 @@ frutas(fruta2);
 frutas(fruta3);
 
 
-// D
+// 3 - D
 console.log(carrinho)
+
