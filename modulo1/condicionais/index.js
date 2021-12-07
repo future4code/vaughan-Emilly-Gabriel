@@ -61,3 +61,28 @@ const turnoAluno = prompt("Qual período você estuda? Responda: M (Matutino), V
     }   else if (turnoAluno === "N") {
          console.log("Boa noite!")
     }
+
+// 3
+const alunoTurno = prompt("Qual período você estuda? Responda: M (Matutino), V ( Vespertino) ou N (Noturno)");
+
+    switch (alunoTurno) {
+        case "M":
+        console.log("Bom dia!")
+        break
+            case "V":
+            console.log("Boa tarde!")
+            break
+                case "N":
+                console.log("Boa noite!")
+                break
+    }
+
+// 4
+const genero = prompt("Qual o gênero do filme?")
+const preco = prompt("Qual o valor do ingresso?")
+
+if (genero === 'fantasia' && preco === 15) {
+    console.log("Bom filme!")
+} else {
+    console.log("Escolha outro filme :(")
+}
