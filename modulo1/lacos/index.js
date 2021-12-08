@@ -28,16 +28,80 @@ Iria adicinar uma linha até chegar à 4 linhas, e adicionaria 1 arterisco em ca
 // ESCRITAS DE CÓDIGO
 
 
-//1 - A)
+// 1 - A & B
 let numeroAnimaisEstimacao = Number(prompt("Quantos animais de estimação você tem?"))
+let listaNomes = []
     if (numeroAnimaisEstimacao === 0) {
         console.log("Que pena! Você pode adotar um pet!")
     } else for (let i = 0; i < numeroAnimaisEstimacao; i++) {
-        const nomesPets = prompt("Digite o nome do seu pet")
-        listaNomes = [nomesPets]
-
+        let nomesPets = prompt("Digite o nome do seu pet")
+        listaNomes.push(nomesPets)
     } 
    
+console.log(listaNomes)
 
+
+// 2 
+
+let arrayOriginal = [1,2,3,4,5,100]
+
+// A) 
+for (let item of arrayOriginal) {
+    console.log(item)
+}
+
+// B)
+for (let item of arrayOriginal) {
+    console.log(item/10)
+}
+
+// C)
+let numerosPares 
+let arrayPar = []
+
+for (let item of arrayOriginal) {
+    if (item % 2 === 0) 
+    numerosPares = item
+    arrayPar = [... arrayPar, numerosPares]
+}
+
+console.log(arrayPar)
+
+// D)
+
+let novoArray = [];
+
+for (let item of arrayOriginal) {
+    novoArray = [...novoArray `O elemento do index é ${arrayOriginal.indexOf(item)} é ${item}`]
+}
+
+console.log(novoArray);
+
+// E)
+
+function retornaMaiorNumero(arrayOriginal){
+    let maiorNumero = 0
+
+    for(let item of arrayOriginal){
+
+      if(item > maiorNumero){
+        maiorNumero = item
+      }
+    }
+    return maiorNumero
+  }
+
+  function retornaMenorNumero(arrayOriginal){
+    let menorNumero = 0
+
+    for(let item of arrayOriginal){
+
+      if(item < menorNumero){
+        menorNumero = item
+      }
+    }
+    return menorNumero
+  }
+  console.log(`O maior número é ${retornaMaiorNumero(arrayOriginal)} menor número é ${retornaMenorNumero(arrayOriginal)}.`)
 
 
